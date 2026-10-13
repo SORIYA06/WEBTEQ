@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE7EF;
+    color: #4A2635;
+    padding-top: 60px;
+}
+
+header {
+    background-color: #D96C93;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    color: #A83F67;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #4A2635;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D96C93;
+    z-index: 1000;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #C94F7C;
+    color: white;
+}
+
+#welcome {
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #D96C93;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.club-section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+#club, #routine, #join {
+    background-color: white;
+    color: #4A2635;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #E8A1BA;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #DDA0B4;
+    padding: 10px;
+    text-align: center;
+    color: #4A2635;
+}
+
+th {
+    background-color: #D96C93;
+    color: white;
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid #D96C93;
+    margin-top: 10px;
+    background-color: white;
+}
+
+legend {
+    color: #A83F67;
+    font-weight: bold;
+}
+
+label {
+    margin-right: 5px;
+    color: #4A2635;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #DDA0B4;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #D96C93;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C94F7C;
+    color: white;
+}
+
+footer {
+    background-color: #D96C93;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    background-color: #C94F7C;
+    color: white;
+}
